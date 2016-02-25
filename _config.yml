@@ -1,0 +1,11 @@
+# Site settings
+title: Jiaqi Ou
+author: Jiaqi Ou
+email: 471884121@qq.com
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://oujiaqi.com" # the base hostname & protocol for your site
+github_username: oujiaqi
+
+# Build settings
+markdown: kramdown
