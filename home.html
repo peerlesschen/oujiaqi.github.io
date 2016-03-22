@@ -1,0 +1,47 @@
+---
+layout: home
+title: Home
+subtitle: Here is home page
+permalink: /
+nav_bool: true
+nav_order: 1
+extra_css: /assets/css/calendar.css
+---
+
+<div class="post-list-container">
+  <ul class="post-list">
+
+    {% for post in site.posts %}
+    <li>
+      <h2 class="post-list-title">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <p><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span></p>
+      {% if post.tags.size > 0 %}
+      <p>Tags: 
+      {% for one in post.tags %}
+        <a href="{{ site.baseurl }}/tags/#{{ one }}" class="tag">{{ one }}</a>
+      {% endfor %}
+      </p>
+      {% endif %}
+      {% if post.catalog %}
+      <p>
+        Catalog: {{ post.catalog }}
+      </p>
+      {% endif %}
+      {% if post.excerpt %}
+      <p class="post-excerpt">
+        {% if post.excerpt.size > 120 %}
+        {{ post.excerpt | slice: 0, 120 }}...
+        {% else %}
+        {{ post.excerpt }}
+        {% endif %}
+      </p>
+      {% endif %}
+      <p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="read-all-button">read all...</a>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

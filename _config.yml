@@ -1,11 +1,72 @@
-# Site settings
-title: Jiaqi Ou
+# This is the site settings file.
+# You can modify this file to 
+# apply this template to your blog.
+# This template is build by oujiaqi.
+# If you have any question or suggestion,
+# You can contact me by email.
+# My email is 471884121@qq.com
+
+
+# Static meta
 author: Jiaqi Ou
 email: 471884121@qq.com
-description: 
+
+
+# Site settings
+title: Sevener
+subtitle: I am coding to change the world.
+description: My Blog.
+keyword: study,code,happiness
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://oujiaqi.com" # the base hostname & protocol for your site
+url: "http://example.com" # the base hostname & protocol for your site
+
+
+
+# Default configuration
+static_css: /assets/css/main.css
+article_css: /assets/css/article.css
+highlight_css: /assets/css/highlight.css
+static_js: /assets/js/main.js
+site_icon: /assets/imgs/site-icon.png
+header_img: /assets/imgs/header_img.jpg
+
+
+# SNS info
 github_username: oujiaqi
+
+
 
 # Build settings
 markdown: kramdown
+exclude: ["README.md"] # exclude files
+
+
+# Recommended links
+links: [{
+        title: "前端外刊评论",
+        href: "http://qianduan.guru/"
+    },{
+        title: "天镶的博客",
+        href: "http://lingyu.wang/"
+    },{
+        title: "Luke的自留地",
+        href: "http://hmqk1995.github.io"
+    },{
+        title: "Ebn's Blog",
+        href: "http://ebnbin.com/"
+    },{
+        title: "SmdCn's Blog",
+        href: "http://blog.smdcn.net"
+    },{
+        title: "解旻的博客",
+        href: "http://xieminis.me/"
+    },{
+        title: "DHong Say",
+        href: "http://dhong.co"
+    },{
+        title: "尹峰以为",
+        href: "http://ingf.github.io/"
+    },{
+        title: "前端神盾局",
+        href: "http://wepiaofei.github.io/blog/"
+    }]

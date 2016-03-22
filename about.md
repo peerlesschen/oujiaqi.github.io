@@ -1,11 +1,20 @@
 ---
-layout: page
+layout: default
 title: About
+subtitle: Here is about page
 permalink: /about/
+nav_bool: true
+nav_order: 3
+extra_css: /assets/css/calendar.css
+header_img: /assets/imgs/naruto.jpg
 ---
 
-此网站是基于Jekyll生成的，感谢Jekyll。作者是一个热爱火影热爱篮球热爱唱歌的阳光男孩！！
+This web templete is based on jekyll. Thanks for jekyll.
 
-此网站将记录吊车尾的修行之路，有书，有爱，有篮球，有诗与远方，还有少不了的1024.
+The author is a **sunshine** boy who love ***Naruto***, ***Basketball*** and ***Singing***.
 
-我是程序猿欧欧！！喵喵~
+Ah, he is a boy who **really** love ***Naruto***, ***Basketball*** and ***Sing***.
+
+You could download this templete from my [github](https://github.com/oujiaqi/jekyllBlog).
+
+
