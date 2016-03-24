@@ -7,7 +7,7 @@ catalog: life
 excerpt: Here is the forth article I wrote.
 tags: [hiking, camp]
 categories: articles diary
-header_img: /assets/imgs/header_img3.jpg
+header_img: /assets/imgs/naruto2.jpg
 ---
 
 ## My forth article about world.

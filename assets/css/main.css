@@ -26,8 +26,6 @@ body {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-	overflow: hidden;
-	height: 35px;
 }
 
 .header-top-title {
@@ -37,6 +35,7 @@ body {
 	font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif,'Times New Roman', Times, serif;
 }
 
+/* big screen style */
 .header-nav-container {
 	float: right;
 	padding-top: 4px;
@@ -52,6 +51,45 @@ body {
 	color: white;
 	font-weight: bold;
 }
+.toggle-button-container {
+	display: none;
+}
+
+
+/* little screen for button style */
+.toggle-button-container-little {
+	position: absolute;
+	cursor: pointer;
+	top:12px;
+	right: 20px;
+	padding-top: 4px;
+}
+
+.header-nav-container-little {
+	display: none;
+	overflow: hidden;
+	min-width: 100px;
+	text-align: center;
+	position: absolute;
+	right: 20px;
+	top: 50px;
+	background: white;
+}
+
+.header-nav-container-little a {
+	display: block;
+	padding: 7px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: 1px solid #E0DCDC;
+}
+
+.header-nav-container-little a:last-child {
+	border-bottom: none;
+}
+/* end little */
+
+
 
 .header-content {
 	margin-left: auto;
@@ -233,6 +271,38 @@ body {
 	text-transform: uppercase
 }
 
+/* scroll to top style */
+#scroll-to-top-img{
+	transition: all 0.8s;
+    -moz-transition: all 0.8s;  /* Firefox 4 */
+    -webkit-transition: all 0.8s;   /* Safari 和 Chrome */
+    -o-transition: all 0.8s;    /* Opera */
+}
+
+#scroll-to-top {
+	position: fixed;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+}
+
+.hide-scroll-button {
+	display: none;
+}
+
+.scroll-img-gradual-go {
+	opacity: 0;
+}
+
+.scroll-img-gradual-come {
+	opacity: 0.8;
+}
+
+/* nav toggle for small screen */
+.toggleOn {
+
+}
+
 
 /* display the nav-side */
 @media screen and (min-width: 900px) {
@@ -265,6 +335,10 @@ body {
 		font-size: 16px;
 		margin: 0;
 	}
+	#scroll-to-top {
+		right: 30px;
+		bottom: 30px;
+	}
 }
 
 
@@ -287,6 +361,10 @@ body {
 	.header-content h2 {
 		font-size: 20px;
 		margin: 0;
+	}
+	#scroll-to-top {
+		right: 50px;
+		bottom: 50px;
 	}
 }
 
@@ -313,5 +391,9 @@ body {
 	.header-content h2 {
 		font-size: 30px;
 		margin: 0;
+	}
+	#scroll-to-top {
+		right: 80px;
+		bottom: 80px;
 	}
 }

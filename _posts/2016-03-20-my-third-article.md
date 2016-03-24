@@ -7,6 +7,7 @@ catalog: note
 excerpt: Here is the third article I wrote.
 tags: [bash, Linux]
 categories: articles study other
+header_img: /assets/imgs/itachi.jpg
 ---
 
 ## My third article about world.

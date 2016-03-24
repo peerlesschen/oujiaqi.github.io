@@ -7,6 +7,7 @@ catalog: study
 excerpt: Here is the first article I wrote.
 tags: [test, c++]
 categories: articles study c++
+header_img: /assets/imgs/akatsuki.jpg
 ---
 
 ## My first article about world.

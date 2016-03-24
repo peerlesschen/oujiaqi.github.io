@@ -7,6 +7,7 @@ catalog: life
 excerpt: Here is the second article I wrote.
 tags: [basketball, brother]
 categories: articles diary
+header_img: /assets/imgs/calintz2.jpg
 ---
 
 ## My second article about world.
