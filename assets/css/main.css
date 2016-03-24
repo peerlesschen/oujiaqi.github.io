@@ -18,7 +18,6 @@ body {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	margin-bottom: 20px;
 	overflow: auto;
 }
 
@@ -319,7 +318,7 @@ body {
 @media screen and (max-width: 360px) {
     .site-header {
     	min-height: 250px;
-    	margin-bottom: 50px;
+    	margin-bottom: 0px;
     }
 
     .header-content {
@@ -347,6 +346,7 @@ body {
 @media screen and (min-width: 361px) and (max-width: 767px) {
     .site-header {
     	min-height: 325px;
+    	margin-bottom: 5px;
     }
 
     .header-content {
@@ -374,6 +374,7 @@ body {
 @media screen and (min-width: 768px) {
     .site-header {
     	min-height: 425px;
+		margin-bottom: 10px;
     }
     .header-top{
     	padding-left: 20px;
