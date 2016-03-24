@@ -3,6 +3,7 @@ which design the mian frame of site
  */
 
 body {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	margin: 0px;
 	padding: 0px;
 }
@@ -64,11 +65,6 @@ body {
 	right: 20px;
 	padding-top: 4px;
 }
-
-.toggle-button-container-little:link {background:#000000; opacity:0;}		/* 未被访问的链接 */
-.toggle-button-container-little:visited {background:#000000; opacity:0;}	/* 已被访问的链接 */
-.toggle-button-container-little:hover {background:#000000; opacity:0;}	/* 鼠标指针移动到链接上 */
-.toggle-button-container-little:active {background:#000000; opacity:0;}	/* 正在被点击的链接 */
 
 .header-nav-container-little {
 	display: none;
