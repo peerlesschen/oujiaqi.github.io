@@ -36,7 +36,7 @@ function TopBHide() {
 function adjust() {
 	var button = document.getElementById("toggle-button");
 	var h = document.getElementById("header-nav");
-	if (window.innerWidth < 800) {
+	if (window.innerWidth < 450) {
 		button.className = "toggle-button-container-little";
 		h.className = "header-nav-container-little";
 	} else {
