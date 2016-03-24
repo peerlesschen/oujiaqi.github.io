@@ -36,7 +36,7 @@ function TopBHide() {
 function adjust() {
 	var button = document.getElementById("toggle-button");
 	var h = document.getElementById("header-nav");
-	if (window.innerWidth < 500) {
+	if (window.innerWidth < 800) {
 		button.className = "toggle-button-container-little";
 		h.className = "header-nav-container-little";
 	} else {
@@ -49,10 +49,10 @@ function adjust() {
 function toggle() {
 	var h = document.getElementById("header-nav");
 	if (!toggleB) {
-		h.style = "display:block;";
+		h.style.display = "block";
 		toggleB = true;
 	} else {
-		h.style="display:none;";
+		h.style.display = "none";
 		toggleB = false;
 	}
 }
@@ -72,7 +72,7 @@ window.onload = function() {
 	}
 	window.onresize = adjust;
 
-	document.getElementById("toggle-button").onclick = toggle;
+	document.getElementById("toggle-button").addEventListener("click", toggle, false);
 }
 
 
