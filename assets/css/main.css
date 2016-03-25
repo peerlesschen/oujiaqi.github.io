@@ -288,6 +288,7 @@ body {
 }
 
 #scroll-to-top {
+	z-index: 10000;
 	position: fixed;
 	cursor: pointer;
 	width: 30px;
