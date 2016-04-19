@@ -14,11 +14,11 @@ email: 471884121@qq.com
 
 # Site settings
 title: Sevener
-subtitle: I am coding to change the world.
-description: My Blog.
+subtitle: Coding change the world.
+description: oujiaqi's blog, including naruto, basketball, book, love, poem and future, and 1024. a load to top.
 keyword: study,code,happiness
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "oujiaqi.github.io" # the base hostname & protocol for your site
+url: "http://oujiaqi.github.io" # the base hostname & protocol for your site
 
 
 
@@ -43,30 +43,18 @@ exclude: ["README.md"] # exclude files
 
 # Recommended links
 links: [{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
+        title: "智图压缩",
+        href: "http://zhitu.isux.us/"
     },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
+        title: "动画工具",
+        href: "http://isux.tencent.com/css3/tools.html"
     },{
-        title: "Luke的自留地",
-        href: "http://hmqk1995.github.io"
+        title: "廖雪峰",
+        href: "http://www.liaoxuefeng.com/"
     },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
+        title: "火影全集",
+        href: "http://www.dilidili.com/anime/naruto/story/"
     },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
+        title: "Naruto",
+        href: "http://naruto-ten.com/"
     }]

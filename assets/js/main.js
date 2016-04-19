@@ -36,12 +36,16 @@ function TopBHide() {
 function adjust() {
 	var button = document.getElementById("toggle-button");
 	var h = document.getElementById("header-nav");
-	if (window.innerWidth < 450) {
+	if (window.innerWidth < 800) {
 		button.className = "toggle-button-container-little";
 		h.className = "header-nav-container-little";
+		h.style.display = "none";
+		toggleB = false;
 	} else {
 		button.className = "toggle-button-container";
 		h.className = "header-nav-container";
+		h.style.display = "block";
+		toggleB = true;
 	}
 }
 
