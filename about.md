@@ -6,7 +6,7 @@ permalink: /about/
 nav_bool: true
 nav_order: 3
 extra_css: /assets/css/calendar.css
-header_img: /assets/imgs/naruto.jpg
+header_img: /assets/imgs/about.jpg
 ---
 
 该网站是基于 jekyll 搭建的，感谢 [jekyll](https://github.com/jekyll/jekyll)。
