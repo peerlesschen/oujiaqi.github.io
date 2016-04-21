@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-subtitle: Here is about page
+subtitle: 
 permalink: /about/
 nav_bool: true
 nav_order: 3
