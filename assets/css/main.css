@@ -336,12 +336,12 @@ body {
 	}
 
 	.header-content h1 {
-		font-size: 20px;
+		font-size: 30px;
 		margin-top: 10px;
 		margin-bottom: 8px; 
 	}
 	.header-content h2 {
-		font-size: 16px;
+		font-size: 20px;
 		margin: 0;
 	}
 	#scroll-to-top {
@@ -368,12 +368,12 @@ body {
 	}
 
 	.header-content h1 {
-		font-size: 30px;
+		font-size: 40px;
 		margin-top: 15px;
 		margin-bottom: 12px; 
 	}
 	.header-content h2 {
-		font-size: 20px;
+		font-size: 30px;
 		margin: 0;
 	}
 	#scroll-to-top {
@@ -403,12 +403,12 @@ body {
 	}
 
 	.header-content h1 {
-		font-size: 45px;
+		font-size: 60px;
 		margin-top: 20px;
 		margin-bottom: 17px;
 	}
 	.header-content h2 {
-		font-size: 30px;
+		font-size: 40px;
 		margin: 0;
 	}
 	#scroll-to-top {
