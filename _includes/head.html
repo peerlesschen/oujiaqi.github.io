@@ -28,4 +28,17 @@
   {% if site.site_icon %}
   <link rel="shortcut icon" href="{{ site.site_icon | prepend: site.baseurl }}">
   {% endif %}
+
+  <!-- add Baidu Analytics -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?d1a656eea8c4b3e580f6f547627ee232";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  <!-- end Baidu Analytics -->
+
 </head>
