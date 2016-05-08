@@ -13,7 +13,7 @@ header_img:
 
 握笔三字经：
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;二指夹，中指垫，离笔尖，两小节；
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;此三指，第一节，同一环，执运笔
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;此三指，第一节，同一环，执运笔。
 
 #### 大多数人不会正确握笔
 
