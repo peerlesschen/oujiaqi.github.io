@@ -266,7 +266,7 @@ body {
 
 
 /* add transition */
-.post-list .read-all-button, .tag, .post-link, .header-nav-container a, .all-tags-links div a,.aside-nav-item .re-links {
+.post-list .read-all-button, .tag, .post-link, .header-nav-container a, .all-tags-links div a,.aside-nav-item .re-links, .pager li a {
 	transition: all 0.3s;
     -moz-transition: all 0.3s;  /* Firefox 4 */
     -webkit-transition: all 0.3s;   /* Safari 和 Chrome */
@@ -311,6 +311,27 @@ body {
 .toggleOn {
 
 }
+
+/* pager */
+.pager {
+	list-style: none;
+	text-align: center;
+}
+
+.pager li {
+	display: inline-block;
+}
+
+.pager li a {
+	text-decoration: none;
+	border: 1px solid #CCC;
+	padding: 14px;
+	margin: 5px;
+	border-radius: 3px;
+	color: #404040;
+}
+
+
 
 
 /* display the nav-side */
@@ -418,6 +439,12 @@ body {
 	.duoshuo-container {
 		margin-top: 30px;
 		padding-top: 20px;
+	}
+
+	.pager li a:hover {
+		color: #FCFCFC;
+		border-color: #0085a1;
+		background: #0085a1;
 	}
 }
 

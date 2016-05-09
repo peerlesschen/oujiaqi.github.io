@@ -40,6 +40,10 @@ github_username: oujiaqi
 markdown: kramdown
 exclude: ["README.md"] # exclude files
 
+gems: [jekyll-paginate]
+paginate: 5
+
+
 
 # Recommended links
 links: [{

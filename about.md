@@ -3,8 +3,6 @@ layout: post
 title: About
 subtitle: 
 permalink: /about/
-nav_bool: true
-nav_order: 3
 extra_css: /assets/css/calendar.css
 header_img: /assets/imgs/about.jpg
 ---
